@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183A82BC2B9FD6BC00D610C7 /* ItemPhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A82BB2B9FD6BC00D610C7 /* ItemPhotoResponse.swift */; };
+		183A82BE2B9FDBD800D610C7 /* FridgePhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A82BD2B9FDBD800D610C7 /* FridgePhotoResponse.swift */; };
+		18466AF32B89776500158F20 /* Smart_Fridge_ClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18466AF22B89776500158F20 /* Smart_Fridge_ClientApp.swift */; };
+		18466AF52B89776500158F20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18466AF42B89776500158F20 /* ContentView.swift */; };
+		18466AF72B89776800158F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18466AF62B89776800158F20 /* Assets.xcassets */; };
+		18466AFA2B89776800158F20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18466AF92B89776800158F20 /* Preview Assets.xcassets */; };
+		18466B062B898DFC00158F20 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18466B052B898DFC00158F20 /* HomeView.swift */; };
+		18466B082B898E1300158F20 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18466B072B898E1300158F20 /* HomeViewModel.swift */; };
+		1868087F2B92B0A100BDCF5B /* PlaceholderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868087E2B92B0A100BDCF5B /* PlaceholderData.swift */; };
+		186808822B92B20000BDCF5B /* FridgeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186808812B92B20000BDCF5B /* FridgeItem.swift */; };
+		186808852B92B52F00BDCF5B /* FridgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186808842B92B52F00BDCF5B /* FridgeView.swift */; };
+		186808872B92B5BA00BDCF5B /* FridgeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186808862B92B5BA00BDCF5B /* FridgeViewModel.swift */; };
+		186D251C2BA0F0BA00F691DE /* RecipeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D251B2BA0F0BA00F691DE /* RecipeResponse.swift */; };
+		186D251F2BA0F13E00F691DE /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D251E2BA0F13E00F691DE /* RecipeView.swift */; };
+		186D25212BA0F24B00F691DE /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D25202BA0F24B00F691DE /* RecipeViewModel.swift */; };
+		189F39AC2B9F87C2006DCAED /* GeneralRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F39AB2B9F87C2006DCAED /* GeneralRequestManager.swift */; };
+		18C1277E2B968B5100F3A2CA /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1277D2B968B5100F3A2CA /* HealthView.swift */; };
+		18C127802B968B5D00F3A2CA /* HealthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1277F2B968B5D00F3A2CA /* HealthViewModel.swift */; };
+		18C127822B968DDE00F3A2CA /* EnvironmentalDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C127812B968DDE00F3A2CA /* EnvironmentalDataPoint.swift */; };
+		18D2E8C92BA0FF820014FCB9 /* ServerURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2E8C82BA0FF820014FCB9 /* ServerURLs.swift */; };
+		18D2E8CC2BA10C440014FCB9 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 18D2E8CB2BA10C440014FCB9 /* MarkdownUI */; };
+		18D2E8CE2BA1121A0014FCB9 /* FridgeConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2E8CD2BA1121A0014FCB9 /* FridgeConditions.swift */; };
+		18DC67F62BA2341100CC82C9 /* UpdateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC67F52BA2341100CC82C9 /* UpdateItemView.swift */; };
+		18DC67F82BA2391A00CC82C9 /* UpdateItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC67F72BA2391A00CC82C9 /* UpdateItemViewModel.swift */; };
+		18DC67FA2BA2614D00CC82C9 /* UpdateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC67F92BA2614D00CC82C9 /* UpdateResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183A82BB2B9FD6BC00D610C7 /* ItemPhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPhotoResponse.swift; sourceTree = "<group>"; };
+		183A82BD2B9FDBD800D610C7 /* FridgePhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgePhotoResponse.swift; sourceTree = "<group>"; };
+		18466AEF2B89776500158F20 /* Smart_Fridge_Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Fridge_Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18466AF22B89776500158F20 /* Smart_Fridge_ClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Fridge_ClientApp.swift; sourceTree = "<group>"; };
+		18466AF42B89776500158F20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18466AF62B89776800158F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18466AF92B89776800158F20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18466B052B898DFC00158F20 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		18466B072B898E1300158F20 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1868087E2B92B0A100BDCF5B /* PlaceholderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderData.swift; sourceTree = "<group>"; };
+		186808812B92B20000BDCF5B /* FridgeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeItem.swift; sourceTree = "<group>"; };
+		186808842B92B52F00BDCF5B /* FridgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeView.swift; sourceTree = "<group>"; };
+		186808862B92B5BA00BDCF5B /* FridgeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeViewModel.swift; sourceTree = "<group>"; };
+		186D251B2BA0F0BA00F691DE /* RecipeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResponse.swift; sourceTree = "<group>"; };
+		186D251E2BA0F13E00F691DE /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		186D25202BA0F24B00F691DE /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		189F39AB2B9F87C2006DCAED /* GeneralRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralRequestManager.swift; sourceTree = "<group>"; };
+		189F39AD2B9F8A35006DCAED /* Smart-Fridge-Client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Smart-Fridge-Client-Info.plist"; sourceTree = SOURCE_ROOT; };
+		18C1277D2B968B5100F3A2CA /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		18C1277F2B968B5D00F3A2CA /* HealthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewModel.swift; sourceTree = "<group>"; };
+		18C127812B968DDE00F3A2CA /* EnvironmentalDataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentalDataPoint.swift; sourceTree = "<group>"; };
+		18D2E8C82BA0FF820014FCB9 /* ServerURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerURLs.swift; sourceTree = "<group>"; };
+		18D2E8CD2BA1121A0014FCB9 /* FridgeConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeConditions.swift; sourceTree = "<group>"; };
+		18DC67F52BA2341100CC82C9 /* UpdateItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateItemView.swift; sourceTree = "<group>"; };
+		18DC67F72BA2391A00CC82C9 /* UpdateItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateItemViewModel.swift; sourceTree = "<group>"; };
+		18DC67F92BA2614D00CC82C9 /* UpdateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18466AEC2B89776500158F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D2E8CC2BA10C440014FCB9 /* MarkdownUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18466AE62B89776500158F20 = {
+			isa = PBXGroup;
+			children = (
+				18466AF12B89776500158F20 /* Smart_Fridge_Client */,
+				18466AF02B89776500158F20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18466AF02B89776500158F20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18466AEF2B89776500158F20 /* Smart_Fridge_Client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18466AF12B89776500158F20 /* Smart_Fridge_Client */ = {
+			isa = PBXGroup;
+			children = (
+				189F39AD2B9F8A35006DCAED /* Smart-Fridge-Client-Info.plist */,
+				186808802B92B15E00BDCF5B /* Models */,
+				1868087D2B92B07200BDCF5B /* Miscellaneous */,
+				18466B012B8988E200158F20 /* Networking */,
+				18466B002B8988D800158F20 /* Views */,
+				18466AF22B89776500158F20 /* Smart_Fridge_ClientApp.swift */,
+				18466AF62B89776800158F20 /* Assets.xcassets */,
+				18466AF82B89776800158F20 /* Preview Content */,
+			);
+			path = Smart_Fridge_Client;
+			sourceTree = "<group>";
+		};
+		18466AF82B89776800158F20 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18466AF92B89776800158F20 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18466B002B8988D800158F20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				186D251D2BA0F12200F691DE /* Recipe */,
+				18C1277C2B968B3E00F3A2CA /* Health */,
+				186808832B92B52200BDCF5B /* Fridge */,
+				18466B042B898DD900158F20 /* Home */,
+				18466AF42B89776500158F20 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18466B012B8988E200158F20 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				189F39AB2B9F87C2006DCAED /* GeneralRequestManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		18466B042B898DD900158F20 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18466B052B898DFC00158F20 /* HomeView.swift */,
+				18466B072B898E1300158F20 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1868087D2B92B07200BDCF5B /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				1868087E2B92B0A100BDCF5B /* PlaceholderData.swift */,
+				18D2E8C82BA0FF820014FCB9 /* ServerURLs.swift */,
+			);
+			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		186808802B92B15E00BDCF5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				186808812B92B20000BDCF5B /* FridgeItem.swift */,
+				18C127812B968DDE00F3A2CA /* EnvironmentalDataPoint.swift */,
+				183A82BB2B9FD6BC00D610C7 /* ItemPhotoResponse.swift */,
+				183A82BD2B9FDBD800D610C7 /* FridgePhotoResponse.swift */,
+				186D251B2BA0F0BA00F691DE /* RecipeResponse.swift */,
+				18D2E8CD2BA1121A0014FCB9 /* FridgeConditions.swift */,
+				18DC67F92BA2614D00CC82C9 /* UpdateResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		186808832B92B52200BDCF5B /* Fridge */ = {
+			isa = PBXGroup;
+			children = (
+				18D2E8CF2BA116DA0014FCB9 /* UpdateItem */,
+				186808842B92B52F00BDCF5B /* FridgeView.swift */,
+				186808862B92B5BA00BDCF5B /* FridgeViewModel.swift */,
+			);
+			path = Fridge;
+			sourceTree = "<group>";
+		};
+		186D251D2BA0F12200F691DE /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				186D251E2BA0F13E00F691DE /* RecipeView.swift */,
+				186D25202BA0F24B00F691DE /* RecipeViewModel.swift */,
+			);
+			path = Recipe;
+			sourceTree = "<group>";
+		};
+		18C1277C2B968B3E00F3A2CA /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				18C1277D2B968B5100F3A2CA /* HealthView.swift */,
+				18C1277F2B968B5D00F3A2CA /* HealthViewModel.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		18D2E8CF2BA116DA0014FCB9 /* UpdateItem */ = {
+			isa = PBXGroup;
+			children = (
+				18DC67F52BA2341100CC82C9 /* UpdateItemView.swift */,
+				18DC67F72BA2391A00CC82C9 /* UpdateItemViewModel.swift */,
+			);
+			path = UpdateItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18466AEE2B89776500158F20 /* Smart_Fridge_Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18466AFD2B89776800158F20 /* Build configuration list for PBXNativeTarget "Smart_Fridge_Client" */;
+			buildPhases = (
+				18466AEB2B89776500158F20 /* Sources */,
+				18466AEC2B89776500158F20 /* Frameworks */,
+				18466AED2B89776500158F20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smart_Fridge_Client;
+			packageProductDependencies = (
+				18D2E8CB2BA10C440014FCB9 /* MarkdownUI */,
+			);
+			productName = Smart_Fridge_Client;
+			productReference = 18466AEF2B89776500158F20 /* Smart_Fridge_Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18466AE72B89776500158F20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					18466AEE2B89776500158F20 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 18466AEA2B89776500158F20 /* Build configuration list for PBXProject "Smart_Fridge_Client" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18466AE62B89776500158F20;
+			packageReferences = (
+				18D2E8CA2BA10C440014FCB9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+			);
+			productRefGroup = 18466AF02B89776500158F20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18466AEE2B89776500158F20 /* Smart_Fridge_Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18466AED2B89776500158F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18466AFA2B89776800158F20 /* Preview Assets.xcassets in Resources */,
+				18466AF72B89776800158F20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18466AEB2B89776500158F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D2E8C92BA0FF820014FCB9 /* ServerURLs.swift in Sources */,
+				189F39AC2B9F87C2006DCAED /* GeneralRequestManager.swift in Sources */,
+				18466B062B898DFC00158F20 /* HomeView.swift in Sources */,
+				186808822B92B20000BDCF5B /* FridgeItem.swift in Sources */,
+				186D25212BA0F24B00F691DE /* RecipeViewModel.swift in Sources */,
+				183A82BC2B9FD6BC00D610C7 /* ItemPhotoResponse.swift in Sources */,
+				18466AF52B89776500158F20 /* ContentView.swift in Sources */,
+				1868087F2B92B0A100BDCF5B /* PlaceholderData.swift in Sources */,
+				18466AF32B89776500158F20 /* Smart_Fridge_ClientApp.swift in Sources */,
+				186808872B92B5BA00BDCF5B /* FridgeViewModel.swift in Sources */,
+				183A82BE2B9FDBD800D610C7 /* FridgePhotoResponse.swift in Sources */,
+				18C1277E2B968B5100F3A2CA /* HealthView.swift in Sources */,
+				18DC67F62BA2341100CC82C9 /* UpdateItemView.swift in Sources */,
+				186808852B92B52F00BDCF5B /* FridgeView.swift in Sources */,
+				18C127802B968B5D00F3A2CA /* HealthViewModel.swift in Sources */,
+				18466B082B898E1300158F20 /* HomeViewModel.swift in Sources */,
+				18C127822B968DDE00F3A2CA /* EnvironmentalDataPoint.swift in Sources */,
+				18DC67FA2BA2614D00CC82C9 /* UpdateResponse.swift in Sources */,
+				186D251F2BA0F13E00F691DE /* RecipeView.swift in Sources */,
+				186D251C2BA0F0BA00F691DE /* RecipeResponse.swift in Sources */,
+				18D2E8CE2BA1121A0014FCB9 /* FridgeConditions.swift in Sources */,
+				18DC67F82BA2391A00CC82C9 /* UpdateItemViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18466AFB2B89776800158F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18466AFC2B89776800158F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18466AFE2B89776800158F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart_Fridge_Client/Preview Content\"";
+				DEVELOPMENT_TEAM = DG985K6YZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Fridge-Client-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-fridge-feb-2024.Smart-Fridge-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18466AFF2B89776800158F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart_Fridge_Client/Preview Content\"";
+				DEVELOPMENT_TEAM = DG985K6YZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Fridge-Client-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "smart-fridge-feb-2024.Smart-Fridge-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18466AEA2B89776500158F20 /* Build configuration list for PBXProject "Smart_Fridge_Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18466AFB2B89776800158F20 /* Debug */,
+				18466AFC2B89776800158F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18466AFD2B89776800158F20 /* Build configuration list for PBXNativeTarget "Smart_Fridge_Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18466AFE2B89776800158F20 /* Debug */,
+				18466AFF2B89776800158F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18D2E8CA2BA10C440014FCB9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18D2E8CB2BA10C440014FCB9 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D2E8CA2BA10C440014FCB9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 18466AE72B89776500158F20 /* Project object */;
+}
